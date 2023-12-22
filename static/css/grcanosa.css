@@ -26,3 +26,21 @@
   margin-left: auto;
   margin-right: auto;
 }
+:root{
+  --hazul: #547691;
+  --hfondo: #f8e6d0;
+  --hmarron: #B67E4D;
+}
+
+body{
+  background-color: var(--hfondo);
+}
+.navbar{
+  background-color: var(--hfondo);
+}
+#mainNav{
+  background-color: var(--hfondo);
+}
+.navbar-brand{
+  color: var(--hazul);
+}

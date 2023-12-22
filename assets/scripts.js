@@ -14,6 +14,7 @@ function random_color_masthead()
   ,"#28a745"
   ,"#0085A1"
   ,"#17a2b8"]
+  colors = ["#547691"]
   random_color_indx = Math.floor(Math.random() * colors.length)
   if($(".masthead-no-img").length > 0){
     

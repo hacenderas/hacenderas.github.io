@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <ul class="list-inline text-center">
+        <ul class="list-inline text-center" style="color:var(--hazul)">
           {% if site.twitter_username %}
           <li class="list-inline-item">
             <a href="https://www.twitter.com/{{ site.twitter_username }}">
@@ -17,16 +17,30 @@
             </a>
           </li>
           {% endif %}
-          {% if site.facebook_username %}
           <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook_username }}">
+            <a href="https://www.youtube.com/channel/UCP1kZMc_adrIIWDcwD-WmmA">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/hacenderas/">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/pages/category/Community-Organization/Asociaci%C3%B3n-Cultural-Hacenderas-105005961133075/">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
               </span>
             </a>
           </li>
-          {% endif %}
           {% if site.github_username %}
           <li class="list-inline-item">
             <a href="https://github.com/{{ site.github_username }}">
@@ -47,7 +61,7 @@
             </a>
           </li>
           {% endif %}
-          <a href="mailto:gonzalo@grcanosa.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+          <a href="mailto:asociacionhacenderas@gmail.com" title="Email"><span class="fa-stack fa-lg" aria-hidden="true">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
             </span>

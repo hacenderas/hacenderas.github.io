@@ -1,14 +1,14 @@
-title:             def grcanosa
-email:             grcanosa@gmail.com
-description:       Programming tricks and other tech-related goodies.
-author:            grcanosa
+title:             Asociación Cultural Hacenderas
+email:             asociacionhacenderas@gmail.com
+#description:       Asociación Cultural Hacenderas
+author:            hacenderas
 baseurl:           ""
-url:               "https://grcanosa.github.io/"
+url:               "https://hacenderas.github.io/"
 
 # Social Profiles
-twitter_username:  grcanosa
-github_username:   grcanosa
-linkedin_username: grcanosa
+twitter_username:  hacenderas
+#github_username:   grcanosa
+#linkedin_username: grcanosa
 #facebook_username: StartBootstrap
 
 # Build settings
