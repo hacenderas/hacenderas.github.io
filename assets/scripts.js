@@ -18,9 +18,10 @@ function random_color_masthead()
   random_color_indx = Math.floor(Math.random() * colors.length)
   if($(".masthead-no-img").length > 0){
     
-    $(".masthead-no-img").css("background-color",colors[random_color_indx])
-    $(".nav-item a").css("color",colors[random_color_indx])
+    $(".masthead-no-img").css("background-color","var(--hc1)")
+    $(".nav-item a").css("color","var(--hc2)")
   }
+  $(".nav-item a").css("color","var(--hc2)")
 }
 random_color_masthead()
 

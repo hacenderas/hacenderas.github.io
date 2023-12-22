@@ -27,9 +27,14 @@
   margin-right: auto;
 }
 :root{
-  --hazul: #547691;
+  /*--azul: #547691;*/
+  /*--fondo: #f8e6d0;*/
+  /*--marron: #B67E4D;*/
+  --hc1: #547691;
   --hfondo: #f8e6d0;
-  --hmarron: #B67E4D;
+  --htitulo: #B67E4D;
+  --hc2: #547691;
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body{
@@ -42,5 +47,27 @@ body{
   background-color: var(--hfondo);
 }
 .navbar-brand{
-  color: var(--hazul);
+  color: var(--hc1);
 }
+
+.fa-circle{
+  color: var(--hc1);
+}
+
+.fa-inverse{
+  color: var(--hfondo);
+}
+
+.post-title,.post-subtitle{
+  color: var(--hc2);
+}
+
+.dropdown-menu{
+  background-color: var(--hfondo);
+}
+
+.btn-primary{
+  background-color: var(--hc1);
+  color: var(--hfondo);
+}
+

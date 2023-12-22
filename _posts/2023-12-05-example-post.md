@@ -4,7 +4,7 @@ subtitle: Ejemplo entrada blog
 title: Ejemplo
 tags: [ejemplo,entrada,blog]
 comments: true
-background: '/static/img/gonzalo.jpg'
+background: '/static/img/bg-post.jpg'
 ---
 
 # Ejemplo entrada

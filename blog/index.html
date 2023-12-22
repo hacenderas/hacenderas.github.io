@@ -6,7 +6,7 @@ title: Blog
 
 {% for post in paginator.posts %}
  <div class="row">
-   <div class="col-10">
+   <div class="col-md-8">
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
           <h2 class="post-title">{{ post.title }}</h2>
@@ -25,10 +25,10 @@ title: Blog
       on {{ post.date | date: '%B %d, %Y' }}</p>
   </article>
 </div>
-<div class="col-2 post-preview">
+<div class="col-md-4 post-preview">
     {% if post.image %}
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <img class="grc-post-image" src="/static/img/jenkins.jpeg">
+    <img class="grc-post-image" src={{post.image}}>
     </a>
     {% endif %}
 </div>
